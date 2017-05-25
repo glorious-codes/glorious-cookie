@@ -1,0 +1,22 @@
+{
+  "name": "gcookie",
+  "version": "0.1.0",
+  "description": "The tiniest cookies library",
+  "main": "dist/gcookie.min.js",
+  "scripts": {
+    "prepublish": "gulp build",
+    "test": "nyc --reporter=html --reporter=text --reporter=lcov ./node_modules/.bin/mocha"
+  },
+  "author": "Rafael Camargo <hello@rafaelcamargo.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-spies": "^0.7.1",
+    "gulp": "^3.9.1",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.4.1",
+    "nyc": "^10.3.2",
+    "webpack": "^2.2.1",
+    "webpack-stream": "^3.2.0"
+  }
+}

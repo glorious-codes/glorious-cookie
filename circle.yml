@@ -1,0 +1,9 @@
+machine:
+  node:
+    version: 4.5.0
+
+test:
+  override:
+    - npm install -g codeclimate-test-reporter
+    - npm test
+    - CODECLIMATE_REPO_TOKEN=c6f209314e1670eb2a79a756bc9014fb7fcaedd846cfbaf03138d4cd6acaeacf codeclimate-test-reporter < ./coverage/lcov.info
