@@ -8,7 +8,7 @@ npm i gcookie --save
 ```
 
 Once installed, you just need insert it on your page:
-```
+``` html
 <script src="/node_modules/gcookie/dist/gcookie.min.js"></script>
 ```
 
@@ -18,7 +18,7 @@ Intending to be as simple as possible, Glorious Cookie has only three methods.
 
 ### Set
 
-```
+``` javascript
 /*
 ** @key: String [required]
 ** @value: String [required]
@@ -30,7 +30,7 @@ gcookie.set(key, value, days, path);
 
 ### Get
 
-```
+``` javascript
 /*
 ** @key: String [optional] - If not provided, all cookies will be returned.
 */
@@ -39,7 +39,7 @@ gcookie.get(key);
 
 ### Remove
 
-```
+``` javascript
 /*
 ** @key: String [required]
 */
