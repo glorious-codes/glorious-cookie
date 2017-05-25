@@ -13,6 +13,7 @@
     "chai": "^3.5.0",
     "chai-spies": "^0.7.1",
     "gulp": "^3.9.1",
+    "gulp-webserver": "^0.9.1",
     "istanbul": "^0.4.5",
     "mocha": "^3.4.1",
     "nyc": "^10.3.2",
