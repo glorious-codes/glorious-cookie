@@ -1,5 +1,9 @@
 # Glorious Cookie
 
+[![CircleCI](https://circleci.com/gh/rafaelcamargo/glorious-cookie.svg?style=svg)](https://circleci.com/gh/rafaelcamargo/glorious-cookie)
+[![Test Coverage](https://codeclimate.com/github/rafaelcamargo/glorious-cookie/badges/coverage.svg)](https://codeclimate.com/github/rafaelcamargo/glorious-cookie/coverage)
+[![Code Climate](https://codeclimate.com/github/rafaelcamargo/glorious-cookie/badges/gpa.svg)](https://codeclimate.com/github/rafaelcamargo/glorious-cookie)
+
 ## Install
 
 Glorious Cookie is available via npm:
