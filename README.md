@@ -51,7 +51,3 @@ gcookie.remove(key);
 ```
 
 **Note:** If cookies are not available, a warning will be logged when trying to set or remove a cookie.
-
-## Release History
-
-- 2017/05/25 v0.1.0 : Initial release
