@@ -2,7 +2,7 @@
   "name": "gcookie",
   "version": "0.1.2",
   "description": "The tiniest cookies library",
-  "main": "dist/gcookie.min.js",
+  "main": "./src/glorious-cookie.js",
   "scripts": {
     "test": "nyc --reporter=html --reporter=text --reporter=lcov ./node_modules/.bin/mocha"
   },

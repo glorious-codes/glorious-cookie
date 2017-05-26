@@ -1,5 +1,3 @@
-var $document = require('./providers').$document;
-
 var ONE_DAY_IN_MILLISECONDS = 86400000;
 var COOKIES_UNAVAILABLE_WARNING_BASE_DESCRIPTION = 'It was not possible to ' +
                                                     '%a a cookie with the ' +
@@ -10,7 +8,7 @@ var _public = {};
 _public.set = function(key, value, days, path, action) {
   action = action || 'set';
   if(isCookieAvailable())
-    $document.cookie = buildCookieData(key, value, days, path);
+    document.cookie = buildCookieData(key, value, days, path);
   else
     logCookiesUnavailableWarning(key, value, action);
 };
@@ -31,14 +29,14 @@ function isCookieAvailable(){
 }
 
 function hasCookieSupport(){
-  return $document && typeof $document.cookie == 'string';
+  return document && typeof document.cookie == 'string';
 }
 
 function isCookieEnabled(){
   var tomorrow = new Date(new Date().getTime() + ONE_DAY_IN_MILLISECONDS);
-  $document.cookie = 'test=test;path=/;expires=' + tomorrow.toUTCString();
-  var isCookieEnabled = $document.cookie.indexOf('test') > -1;
-  $document.cookie = 'test=;path=/;expires=' + new Date(0).toUTCString();
+  document.cookie = 'test=test;path=/;expires=' + tomorrow.toUTCString();
+  var isCookieEnabled = document.cookie.indexOf('test') > -1;
+  document.cookie = 'test=;path=/;expires=' + new Date(0).toUTCString();
   return isCookieEnabled;
 }
 
@@ -71,7 +69,7 @@ function buildPathValue(path){
 }
 
 function getAllCookies(){
-  var cookies = $document.cookie.split(';');
+  var cookies = document.cookie.split(';');
   return convertCookiesToObject(cookies);
 }
 
