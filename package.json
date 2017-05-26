@@ -1,6 +1,6 @@
 {
   "name": "gcookie",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "The tiniest cookies library",
   "main": "./src/glorious-cookie.js",
   "scripts": {
