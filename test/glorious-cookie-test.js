@@ -1,23 +1,25 @@
 var chai = require('chai');
 var expect = require('chai').expect;
 var spies = require('chai-spies');
-var window = require('./window-mock');
-var $document = require('../src/providers').$document;
-var gcookie = require('../src/glorious-cookie');
+
+var window, $document
 
 chai.use(spies);
 
 describe('Glorious Cookie', function(){
 
-  var cookiesMock, originalCookie;
+  var $document, gcookie, cookiesMock, originalCookie;
 
   beforeEach(function(){
-    originalCookie = $document.cookie;
+    global.window = require('./window-mock');
+    $document = require('../src/providers').$document;
+    gcookie = require('../src/glorious-cookie');
     cookiesMock = 'name=jo%C3%A3o;age=23;city=s%C3%A3o%20paulo';
   });
 
   afterEach(function(){
-    $document.cookie = originalCookie;
+    $document.cookie = '';
+    delete global.window;
   });
 
   it('should set a cookie', function(){

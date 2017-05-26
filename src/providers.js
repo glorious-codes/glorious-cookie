@@ -1,3 +1,3 @@
 module.exports = {
-  $document: window.document
+  $document: window ? window.document : null
 };
