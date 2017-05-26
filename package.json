@@ -1,6 +1,6 @@
 {
   "name": "gcookie",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "The tiniest cookies library",
   "main": "dist/gcookie.min.js",
   "scripts": {
