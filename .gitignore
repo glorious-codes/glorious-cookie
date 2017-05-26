@@ -128,9 +128,6 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# Dist
-/dist
-
 # Coverage
 /coverage
 

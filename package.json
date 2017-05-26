@@ -1,10 +1,9 @@
 {
   "name": "gcookie",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "The tiniest cookies library",
   "main": "dist/gcookie.min.js",
   "scripts": {
-    "prepublish": "gulp build",
     "test": "nyc --reporter=html --reporter=text --reporter=lcov ./node_modules/.bin/mocha"
   },
   "author": "Rafael Camargo <hello@rafaelcamargo.com>",
