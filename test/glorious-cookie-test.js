@@ -1,7 +1,7 @@
 var chai = require('chai');
 var expect = require('chai').expect;
 var spies = require('chai-spies');
-gcookie = require('../src/glorious-cookie');
+var gcookie = require('../src/glorious-cookie');
 
 chai.use(spies);
 

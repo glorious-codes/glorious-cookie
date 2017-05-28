@@ -46,8 +46,10 @@ gcookie.get(key);
 ``` javascript
 /*
 ** @key: String [required]
+** @path: String [optional] - If you have specified a path on gcookie.set(),
+**                            it will be required here.
 */
-gcookie.remove(key);
+gcookie.remove(key, path);
 ```
 
 **Note:** If cookies are not available, a warning will be logged when trying to set or remove a cookie.
