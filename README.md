@@ -8,12 +8,16 @@
 
 Glorious Cookie is available via npm:
 ```
-npm i gcookie --save
+npm i @glorious/cookie --save
 ```
 
-Once installed, you just need insert it on your page:
+Once installed, you just need import it in your module:
+``` javascript
+import gcookie from '@glorious/cookie';
+```
+or you may include it on your html:
 ``` html
-<script src="/node_modules/gcookie/dist/gcookie.min.js"></script>
+<script src="/node_modules/@glorious/cookie/dist/gcookie.min.js"></script>
 ```
 
 ## Usage
