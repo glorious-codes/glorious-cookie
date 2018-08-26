@@ -1,7 +1,7 @@
 # Glorious Cookie
 
 [![CircleCI](https://circleci.com/gh/rafaelcamargo/glorious-cookie.svg?style=svg)](https://circleci.com/gh/rafaelcamargo/glorious-cookie)
-[![Test Coverage](https://codeclimate.com/github/rafaelcamargo/glorious-cookie/badges/coverage.svg)](https://codeclimate.com/github/rafaelcamargo/glorious-cookie/coverage)
+[![codecov](https://codecov.io/gh/rafaelcamargo/glorious-cookie/branch/master/graph/badge.svg)](https://codecov.io/gh/rafaelcamargo/glorious-cookie)
 [![Code Climate](https://codeclimate.com/github/rafaelcamargo/glorious-cookie/badges/gpa.svg)](https://codeclimate.com/github/rafaelcamargo/glorious-cookie)
 
 ## Install
