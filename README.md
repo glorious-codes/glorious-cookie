@@ -4,7 +4,7 @@
 [![codecov](https://codecov.io/gh/rafaelcamargo/glorious-cookie/branch/master/graph/badge.svg)](https://codecov.io/gh/rafaelcamargo/glorious-cookie)
 [![Code Climate](https://codeclimate.com/github/rafaelcamargo/glorious-cookie/badges/gpa.svg)](https://codeclimate.com/github/rafaelcamargo/glorious-cookie)
 
-## Install
+## Installation
 
 Glorious Cookie is available via npm:
 ```
