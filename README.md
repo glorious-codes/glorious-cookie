@@ -2,7 +2,6 @@
 
 [![CircleCI](https://circleci.com/gh/glorious-codes/glorious-cookie.svg?style=svg)](https://circleci.com/gh/glorious-codes/glorious-cookie)
 [![codecov](https://codecov.io/gh/glorious-codes/glorious-cookie/branch/master/graph/badge.svg)](https://codecov.io/gh/glorious-codes/glorious-cookie)
-[![Code Climate](https://codeclimate.com/github/rafaelcamargo/glorious-cookie/badges/gpa.svg)](https://codeclimate.com/github/rafaelcamargo/glorious-cookie)
 
 ## Installation
 
