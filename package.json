@@ -8,8 +8,7 @@
   ],
   "scripts": {
     "build": "./node_modules/gulp/bin/gulp.js build",
-    "test": "nyc --reporter=html --reporter=text --reporter=lcov ./node_modules/.bin/mocha && ./node_modules/codecov/bin/codecov",
-    "quality": "./node_modules/codeclimate-test-reporter/bin/codeclimate.js < ./coverage/lcov.info",
+    "test": "nyc ./node_modules/.bin/mocha && ./node_modules/codecov/bin/codecov",
     "prepublishOnly": "npm run build"
   },
   "author": "Rafael Camargo <hello@rafaelcamargo.com>",
@@ -17,7 +16,6 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "chai-spies": "^0.7.1",
-    "codeclimate-test-reporter": "^0.5.0",
     "codecov": "^3.0.4",
     "gulp": "^3.9.1",
     "gulp-webserver": "^0.9.1",
